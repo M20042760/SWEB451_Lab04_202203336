@@ -105,6 +105,7 @@ public class Lab03PlayerController : MonoBehaviour
         if (sprintTrail != null)
         {
             sprintTrail.emitting = isSprinting;
+            
         }
 
         if (jumpRequested && IsGrounded())
